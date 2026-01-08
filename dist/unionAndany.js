@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 let subs = 1000;
 let apiRequest = "error";
-let airlineSeat = "aisle";
+let airlineSeat = "middle";
 airlineSeat = "middle";
 let orders = ["12", "45", "90", "89"];
 let currentOrder;

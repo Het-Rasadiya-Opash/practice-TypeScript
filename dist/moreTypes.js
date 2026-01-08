@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 let response = "43";
 let numbericaLength = response.length;
+console.log(numbericaLength);
 let bookString = '{"name":"One thing"}';
 let bookObject = JSON.parse(bookString);
 console.log(bookObject.name);
@@ -37,7 +38,10 @@ function redirectBasedOnRole(role) {
         console.log("Redirecting to User Dashboard");
         return;
     }
-    role;
+    role; //never
 }
 redirectBasedOnRole("admin");
+function neverReturn() {
+    while (true) { }
+}
 //# sourceMappingURL=moreTypes.js.map

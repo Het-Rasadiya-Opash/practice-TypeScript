@@ -1,6 +1,8 @@
 let response: any = "43";
 
 let numbericaLength: number = (response as string).length;
+console.log(numbericaLength);
+
 
 type Book = {
   name: string;

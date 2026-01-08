@@ -2,7 +2,7 @@ let subs: number | string = 1000;
 
 let apiRequest: "pending" | "success" | "error" = "error";
 
-let airlineSeat: "aisle" | "window" | "middle" = "aisle";
+let airlineSeat: "aisle" | "window" | "middle" = "middle";
 airlineSeat = "middle";
 
 let orders = ["12", "45", "90", "89"];

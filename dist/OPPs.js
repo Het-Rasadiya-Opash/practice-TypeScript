@@ -1,4 +1,3 @@
-"use strict";
 // class Chai {
 //   flavour: string;
 //   price: number;
@@ -9,7 +8,6 @@
 // }
 // const masalaChai = new Chai("masala", 25);
 // console.log(masalaChai);
-Object.defineProperty(exports, "__esModule", { value: true });
 class Chai {
     flavour = "Masla";
     secretIngredients = "Cardamom";
@@ -92,4 +90,5 @@ class ChaiMaker {
         this.heater.heat;
     }
 }
+export {};
 //# sourceMappingURL=OPPs.js.map

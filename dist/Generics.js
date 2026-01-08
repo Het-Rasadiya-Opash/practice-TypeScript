@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 //generic Function
 function WrapInArray(item) {
     return [item];
@@ -20,4 +18,9 @@ const nameBox = {
     content: "het",
 };
 console.log(nameBox);
+const res = {
+    status: 200,
+    data: { flavour: "masala" },
+};
+export {};
 //# sourceMappingURL=Generics.js.map

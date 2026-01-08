@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let response = "43";
 let numbericaLength = response.length;
 console.log(numbericaLength);
@@ -44,4 +42,5 @@ redirectBasedOnRole("admin");
 function neverReturn() {
     while (true) { }
 }
+export {};
 //# sourceMappingURL=moreTypes.js.map

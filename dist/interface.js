@@ -1,6 +1,4 @@
-"use strict";
 // type ChaiOrder = { type: string; sugar: number; strong: boolean };
-Object.defineProperty(exports, "__esModule", { value: true });
 function orderChai(tea) {
     console.log(tea);
 }
@@ -19,5 +17,6 @@ const cfg = {
     appName: "App",
     version: 1.0,
 };
+export {};
 //cfg.appName = "Web"; // error throw
 //# sourceMappingURL=interface.js.map

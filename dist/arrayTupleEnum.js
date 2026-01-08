@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const chaiFlavour = ["masala", "lemon", "ginger"];
 const chaiPrice = [20, 25];
 const rating = [4.5, 5];
@@ -58,4 +56,5 @@ var Sugar;
 const s = Sugar.HIGH;
 let t = ["chai", 10];
 t.push("sugar");
+export {};
 //# sourceMappingURL=arrayTupleEnum.js.map

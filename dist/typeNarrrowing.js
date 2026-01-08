@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 function getMsg(msg) {
     if (typeof msg === "string") {
         return `${msg} is String`;
@@ -76,6 +74,7 @@ function brew(order) {
     if ("spicelevel" in order) {
     }
 }
+export {};
 // function isStringArray(arr: unknown): arr is string[]{
 // };
 //# sourceMappingURL=typeNarrrowing.js.map

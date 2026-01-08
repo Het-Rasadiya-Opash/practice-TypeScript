@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const masala = {
     flavour: "malsa",
     price: 30,
@@ -25,4 +23,5 @@ const u = {
     name: "het",
     age: 20,
 };
+export {};
 //# sourceMappingURL=interfacec.js.map

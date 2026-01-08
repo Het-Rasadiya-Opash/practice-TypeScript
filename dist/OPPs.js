@@ -20,6 +20,7 @@ class Chai {
 const c = new Chai();
 console.log(c.flavour);
 console.log(c.revel());
+//protected
 class Shop {
     shopName = "Chai corner";
 }
@@ -30,6 +31,7 @@ class Branch extends Shop {
 }
 const b = new Branch();
 console.log(b.getName());
+//private method 2 # using
 class Walet {
     #balance = 100;
     getBalance() {
@@ -38,12 +40,14 @@ class Walet {
 }
 const w = new Walet();
 console.log(w.getBalance());
+//readonly
 class Cup {
     capacity = 250;
     constructor(capacity) {
         this.capacity = capacity;
     }
 }
+//private -> getter setter
 class ModernChai {
     _sugar = 2;
     get sugar() {
@@ -58,6 +62,7 @@ class ModernChai {
 const mc = new ModernChai();
 mc.sugar = 3;
 console.log(mc);
+//static
 class EkChai {
     flavour;
     static ShopName = "ChaiSHop";
@@ -66,4 +71,25 @@ class EkChai {
     }
 }
 console.log(EkChai.ShopName);
+//abstract
+class Drink {
+}
+class MyChai extends Drink {
+    make() {
+        console.log("");
+    }
+}
+//composition
+class Heater {
+    heat() { }
+}
+class ChaiMaker {
+    heater;
+    constructor(heater) {
+        this.heater = heater;
+    }
+    make() {
+        this.heater.heat;
+    }
+}
 //# sourceMappingURL=OPPs.js.map

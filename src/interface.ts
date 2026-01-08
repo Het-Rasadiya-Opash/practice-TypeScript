@@ -72,3 +72,5 @@ const cfg: Config = {
   version: 1.0,
 };
 //cfg.appName = "Web"; // error throw
+
+
